@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/home/jp/AndroidProject/BaiduOfflineDownloadDemo-master/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/bg_search_edit.9.png",
+        "source": "/home/jp/AndroidProject/BaiduOfflineDownloadDemo-master/app/src/main/res/drawable-xhdpi/bg_search_edit.9.png"
+    },
+    {
+        "merged": "/home/jp/AndroidProject/BaiduOfflineDownloadDemo-master/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_launcher.png",
+        "source": "/home/jp/AndroidProject/BaiduOfflineDownloadDemo-master/app/src/main/res/drawable-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/jp/AndroidProject/BaiduOfflineDownloadDemo-master/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/btn_search_grey.png",
+        "source": "/home/jp/AndroidProject/BaiduOfflineDownloadDemo-master/app/src/main/res/drawable-xhdpi/btn_search_grey.png"
+    }
+]

@@ -1,0 +1,121 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/jp/AndroidProject/BaiduOfflineDownloadDemo-master/app/src/main/AndroidManifest.xml:1:1-51:12
+	package
+		ADDED from /home/jp/AndroidProject/BaiduOfflineDownloadDemo-master/app/src/main/AndroidManifest.xml:2:5-35
+		INJECTED from /home/jp/AndroidProject/BaiduOfflineDownloadDemo-master/app/src/main/AndroidManifest.xml
+		INJECTED from /home/jp/AndroidProject/BaiduOfflineDownloadDemo-master/app/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /home/jp/AndroidProject/BaiduOfflineDownloadDemo-master/app/src/main/AndroidManifest.xml:4:5-30
+		INJECTED from /home/jp/AndroidProject/BaiduOfflineDownloadDemo-master/app/src/main/AndroidManifest.xml
+		INJECTED from /home/jp/AndroidProject/BaiduOfflineDownloadDemo-master/app/src/main/AndroidManifest.xml
+	android:versionCode
+		ADDED from /home/jp/AndroidProject/BaiduOfflineDownloadDemo-master/app/src/main/AndroidManifest.xml:3:5-28
+		INJECTED from /home/jp/AndroidProject/BaiduOfflineDownloadDemo-master/app/src/main/AndroidManifest.xml
+		INJECTED from /home/jp/AndroidProject/BaiduOfflineDownloadDemo-master/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/jp/AndroidProject/BaiduOfflineDownloadDemo-master/app/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from /home/jp/AndroidProject/BaiduOfflineDownloadDemo-master/app/src/main/AndroidManifest.xml:7:5-71
+	android:name
+		ADDED from /home/jp/AndroidProject/BaiduOfflineDownloadDemo-master/app/src/main/AndroidManifest.xml:7:22-68
+uses-permission#android.permission.USE_CREDENTIALS
+ADDED from /home/jp/AndroidProject/BaiduOfflineDownloadDemo-master/app/src/main/AndroidManifest.xml:8:2-71
+	android:name
+		ADDED from /home/jp/AndroidProject/BaiduOfflineDownloadDemo-master/app/src/main/AndroidManifest.xml:8:19-68
+uses-permission#android.permission.MANAGE_ACCOUNTS
+ADDED from /home/jp/AndroidProject/BaiduOfflineDownloadDemo-master/app/src/main/AndroidManifest.xml:9:2-71
+	android:name
+		ADDED from /home/jp/AndroidProject/BaiduOfflineDownloadDemo-master/app/src/main/AndroidManifest.xml:9:19-68
+uses-permission#android.permission.AUTHENTICATE_ACCOUNTS
+ADDED from /home/jp/AndroidProject/BaiduOfflineDownloadDemo-master/app/src/main/AndroidManifest.xml:10:2-77
+	android:name
+		ADDED from /home/jp/AndroidProject/BaiduOfflineDownloadDemo-master/app/src/main/AndroidManifest.xml:10:19-74
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /home/jp/AndroidProject/BaiduOfflineDownloadDemo-master/app/src/main/AndroidManifest.xml:11:2-76
+	android:name
+		ADDED from /home/jp/AndroidProject/BaiduOfflineDownloadDemo-master/app/src/main/AndroidManifest.xml:11:19-73
+uses-permission#android.permission.INTERNET
+ADDED from /home/jp/AndroidProject/BaiduOfflineDownloadDemo-master/app/src/main/AndroidManifest.xml:12:2-64
+	android:name
+		ADDED from /home/jp/AndroidProject/BaiduOfflineDownloadDemo-master/app/src/main/AndroidManifest.xml:12:19-61
+uses-permission#com.android.launcher.permission.READ_SETTINGS
+ADDED from /home/jp/AndroidProject/BaiduOfflineDownloadDemo-master/app/src/main/AndroidManifest.xml:13:2-82
+	android:name
+		ADDED from /home/jp/AndroidProject/BaiduOfflineDownloadDemo-master/app/src/main/AndroidManifest.xml:13:19-79
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from /home/jp/AndroidProject/BaiduOfflineDownloadDemo-master/app/src/main/AndroidManifest.xml:14:2-73
+	android:name
+		ADDED from /home/jp/AndroidProject/BaiduOfflineDownloadDemo-master/app/src/main/AndroidManifest.xml:14:19-70
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from /home/jp/AndroidProject/BaiduOfflineDownloadDemo-master/app/src/main/AndroidManifest.xml:15:2-73
+	android:name
+		ADDED from /home/jp/AndroidProject/BaiduOfflineDownloadDemo-master/app/src/main/AndroidManifest.xml:15:19-70
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from /home/jp/AndroidProject/BaiduOfflineDownloadDemo-master/app/src/main/AndroidManifest.xml:16:2-72
+	android:name
+		ADDED from /home/jp/AndroidProject/BaiduOfflineDownloadDemo-master/app/src/main/AndroidManifest.xml:16:19-69
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /home/jp/AndroidProject/BaiduOfflineDownloadDemo-master/app/src/main/AndroidManifest.xml:17:2-78
+	android:name
+		ADDED from /home/jp/AndroidProject/BaiduOfflineDownloadDemo-master/app/src/main/AndroidManifest.xml:17:19-75
+uses-permission#android.permission.BROADCAST_STICKY
+ADDED from /home/jp/AndroidProject/BaiduOfflineDownloadDemo-master/app/src/main/AndroidManifest.xml:18:2-72
+	android:name
+		ADDED from /home/jp/AndroidProject/BaiduOfflineDownloadDemo-master/app/src/main/AndroidManifest.xml:18:19-69
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from /home/jp/AndroidProject/BaiduOfflineDownloadDemo-master/app/src/main/AndroidManifest.xml:19:2-70
+	android:name
+		ADDED from /home/jp/AndroidProject/BaiduOfflineDownloadDemo-master/app/src/main/AndroidManifest.xml:19:19-67
+application
+ADDED from /home/jp/AndroidProject/BaiduOfflineDownloadDemo-master/app/src/main/AndroidManifest.xml:23:5-49:19
+MERGED from [com.android.support:support-v4:23.4.0] /home/jp/AndroidProject/BaiduOfflineDownloadDemo-master/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/AndroidManifest.xml:22:5-20
+	android:label
+		ADDED from /home/jp/AndroidProject/BaiduOfflineDownloadDemo-master/app/src/main/AndroidManifest.xml:27:9-41
+	android:allowBackup
+		ADDED from /home/jp/AndroidProject/BaiduOfflineDownloadDemo-master/app/src/main/AndroidManifest.xml:25:9-35
+	android:icon
+		ADDED from /home/jp/AndroidProject/BaiduOfflineDownloadDemo-master/app/src/main/AndroidManifest.xml:26:9-45
+	android:theme
+		ADDED from /home/jp/AndroidProject/BaiduOfflineDownloadDemo-master/app/src/main/AndroidManifest.xml:28:9-40
+	android:name
+		ADDED from /home/jp/AndroidProject/BaiduOfflineDownloadDemo-master/app/src/main/AndroidManifest.xml:24:9-58
+meta-data#com.baidu.lbsapi.API_KEY
+ADDED from /home/jp/AndroidProject/BaiduOfflineDownloadDemo-master/app/src/main/AndroidManifest.xml:30:9-32:68
+	android:value
+		ADDED from /home/jp/AndroidProject/BaiduOfflineDownloadDemo-master/app/src/main/AndroidManifest.xml:32:17-65
+	android:name
+		ADDED from /home/jp/AndroidProject/BaiduOfflineDownloadDemo-master/app/src/main/AndroidManifest.xml:31:17-56
+service#com.baidu.location.f
+ADDED from /home/jp/AndroidProject/BaiduOfflineDownloadDemo-master/app/src/main/AndroidManifest.xml:34:9-37:19
+	android:enabled
+		ADDED from /home/jp/AndroidProject/BaiduOfflineDownloadDemo-master/app/src/main/AndroidManifest.xml:35:18-40
+	android:process
+		ADDED from /home/jp/AndroidProject/BaiduOfflineDownloadDemo-master/app/src/main/AndroidManifest.xml:36:18-43
+	android:name
+		ADDED from /home/jp/AndroidProject/BaiduOfflineDownloadDemo-master/app/src/main/AndroidManifest.xml:34:18-53
+activity#com.csq.baiduoffline.BaiduOfflineMapActivity
+ADDED from /home/jp/AndroidProject/BaiduOfflineDownloadDemo-master/app/src/main/AndroidManifest.xml:39:9-47:20
+	android:screenOrientation
+		ADDED from /home/jp/AndroidProject/BaiduOfflineDownloadDemo-master/app/src/main/AndroidManifest.xml:41:13-47
+	android:name
+		ADDED from /home/jp/AndroidProject/BaiduOfflineDownloadDemo-master/app/src/main/AndroidManifest.xml:40:13-52
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /home/jp/AndroidProject/BaiduOfflineDownloadDemo-master/app/src/main/AndroidManifest.xml:43:13-46:29
+action#android.intent.action.MAIN
+ADDED from /home/jp/AndroidProject/BaiduOfflineDownloadDemo-master/app/src/main/AndroidManifest.xml:44:17-68
+	android:name
+		ADDED from /home/jp/AndroidProject/BaiduOfflineDownloadDemo-master/app/src/main/AndroidManifest.xml:44:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/jp/AndroidProject/BaiduOfflineDownloadDemo-master/app/src/main/AndroidManifest.xml:45:17-76
+	android:name
+		ADDED from /home/jp/AndroidProject/BaiduOfflineDownloadDemo-master/app/src/main/AndroidManifest.xml:45:27-74
+uses-sdk
+INJECTED from /home/jp/AndroidProject/BaiduOfflineDownloadDemo-master/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:support-v4:23.4.0] /home/jp/AndroidProject/BaiduOfflineDownloadDemo-master/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/AndroidManifest.xml:20:5-43
+	android:targetSdkVersion
+		INJECTED from /home/jp/AndroidProject/BaiduOfflineDownloadDemo-master/app/src/main/AndroidManifest.xml
+		INJECTED from /home/jp/AndroidProject/BaiduOfflineDownloadDemo-master/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/jp/AndroidProject/BaiduOfflineDownloadDemo-master/app/src/main/AndroidManifest.xml
+		INJECTED from /home/jp/AndroidProject/BaiduOfflineDownloadDemo-master/app/src/main/AndroidManifest.xml
