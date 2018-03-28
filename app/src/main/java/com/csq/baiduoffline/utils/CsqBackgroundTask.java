@@ -34,12 +34,11 @@ public abstract class CsqBackgroundTask<T> extends AsyncTask<Void, Integer, T> {
 	
 	@Override
 	protected T doInBackground(Void... params) {
-		// TODO Auto-generated method stub
+
 		T result = null;
 		try {
 			result = onRun();
 		} catch (Exception e) {
-			// TODO: handle exception
 			e.printStackTrace();
 		}
 		return result;
@@ -47,7 +46,7 @@ public abstract class CsqBackgroundTask<T> extends AsyncTask<Void, Integer, T> {
 	
 	@Override
 	protected void onPostExecute(T result) {
-		// TODO Auto-generated method stub
+
 		super.onPostExecute(result);
 		
 		if(isCanContine()){

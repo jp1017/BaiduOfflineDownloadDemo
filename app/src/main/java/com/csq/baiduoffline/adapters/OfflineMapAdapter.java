@@ -34,7 +34,6 @@ public class OfflineMapAdapter extends ArrayListAdapter<OfflineMapItem> {
 	
 	public OfflineMapAdapter(Context context, MKOfflineMap mOffline, OnOfflineItemStatusChangeListener listener) {
 		super(context);
-		// TODO Auto-generated constructor stub
 		this.context = context;
 		this.mOffline = mOffline;
 		this.listener = listener;
@@ -44,7 +43,7 @@ public class OfflineMapAdapter extends ArrayListAdapter<OfflineMapItem> {
 	
 	@Override
 	public View getView(int position, View convertView, ViewGroup parent) {
-		// TODO Auto-generated method stub
+
 		ViewHolder holder = null;
 		if (convertView == null) {
 			convertView = inflater.inflate(R.layout.listitem_offline_province_child, null);
@@ -125,7 +124,7 @@ public class OfflineMapAdapter extends ArrayListAdapter<OfflineMapItem> {
 
 		@Override
 		public void onClick(View v) {
-			// TODO Auto-generated method stub
+
 			switch (v.getId()) {
 			case R.id.lyRoot:
 				if(data.getStatus() == MKOLUpdateElement.UNDEFINED){

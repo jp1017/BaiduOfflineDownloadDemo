@@ -44,7 +44,6 @@ public class OfflineMapManagerAdapter extends ArrayListAdapter<OfflineMapItem> {
 	
 	public OfflineMapManagerAdapter(Context context, MKOfflineMap mOffline, OnOfflineItemStatusChangeListener listener) {
 		super(context);
-		// TODO Auto-generated constructor stub
 		this.context = context;
 		this.mOffline = mOffline;
 		this.listener = listener;
@@ -54,7 +53,7 @@ public class OfflineMapManagerAdapter extends ArrayListAdapter<OfflineMapItem> {
 	
 	@Override
 	public View getView(int position, View convertView, ViewGroup parent) {
-		// TODO Auto-generated method stub
+
 		ViewHolder holder = null;
 		if (convertView == null) {
 			convertView = inflater.inflate(R.layout.listitem_offline_manager, null);
@@ -73,7 +72,7 @@ public class OfflineMapManagerAdapter extends ArrayListAdapter<OfflineMapItem> {
 	
 	@Override
 	public void setDatas(List<OfflineMapItem> ds) {
-		// TODO Auto-generated method stub
+
 		super.setDatas(ds);
 		
 		expandedCityIds.clear();
@@ -81,7 +80,7 @@ public class OfflineMapManagerAdapter extends ArrayListAdapter<OfflineMapItem> {
 	
 	@Override
 	public void setArrayDatas(OfflineMapItem[] array) {
-		// TODO Auto-generated method stub
+
 		super.setArrayDatas(array);
 		
 		expandedCityIds.clear();
@@ -216,7 +215,7 @@ public class OfflineMapManagerAdapter extends ArrayListAdapter<OfflineMapItem> {
 
 		@Override
 		public void onClick(View v) {
-			// TODO Auto-generated method stub
+
 			switch (v.getId()) {
 			case R.id.lyCityInfo:
 				if(lyEditPanel.getVisibility() == View.VISIBLE){
@@ -277,7 +276,7 @@ public class OfflineMapManagerAdapter extends ArrayListAdapter<OfflineMapItem> {
 									@Override
 									public void onClick(DialogInterface dialog,
 											int which) {
-										// TODO Auto-generated method stub
+
 										mOffline.remove(data.getCityId());
 										data.setStatus(MKOLUpdateElement.UNDEFINED);
 										if(listener != null){
@@ -292,7 +291,7 @@ public class OfflineMapManagerAdapter extends ArrayListAdapter<OfflineMapItem> {
 									@Override
 									public void onClick(DialogInterface dialog,
 											int which) {
-										// TODO Auto-generated method stub
+
 										dialog.dismiss();
 									}
 								}).create();

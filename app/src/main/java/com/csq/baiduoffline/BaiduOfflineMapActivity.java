@@ -74,7 +74,6 @@ public class BaiduOfflineMapActivity extends Activity
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
-		// TODO Auto-generated method stub
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_offline_map);
 		
@@ -90,7 +89,6 @@ public class BaiduOfflineMapActivity extends Activity
 	private boolean isResumed = false;
 	@Override
 	protected void onResume() {
-		// TODO Auto-generated method stub
 		super.onResume();
 		
 		if(!isResumed){
@@ -101,7 +99,6 @@ public class BaiduOfflineMapActivity extends Activity
 	
 	@Override
 	protected void onDestroy() {
-		// TODO Auto-generated method stub
 		super.onDestroy();
 		
 		mOffline.destroy();
@@ -116,7 +113,6 @@ public class BaiduOfflineMapActivity extends Activity
 	 */
 	@Override
 	public void onGetOfflineMapState(int type, int state) {
-		// TODO Auto-generated method stub
         switch (type) {
             case MKOfflineMap.TYPE_DOWNLOAD_UPDATE:
                 MKOLUpdateElement update = mOffline.getUpdateInfo(state);
@@ -155,7 +151,6 @@ public class BaiduOfflineMapActivity extends Activity
 	 */
 	@Override
 	public void statusChanged(OfflineMapItem item, boolean removed) {
-		// TODO Auto-generated method stub
 		if(removed){
 			for (int i = itemsDown.size() - 1; i >= 0; i--) {
 				OfflineMapItem temp = itemsDown.get(i);
@@ -296,7 +291,6 @@ public class BaiduOfflineMapActivity extends Activity
     	new CsqBackgroundTask<Void>(this) {
 			@Override
 			protected Void onRun() {
-				// TODO Auto-generated method stub
 				// 导入离线地图包
 				// 将从官网下载的离线包解压，把vmp文件夹拷入SD卡根目录下的BaiduMapSdk文件夹内。
 				// 把网站上下载的文件解压，将\BaiduMap\vmp\l里面的.dat_svc文件，拷贝到手机BaiduMapSDK/vmp/h目录下
@@ -378,7 +372,7 @@ public class BaiduOfflineMapActivity extends Activity
                         c.setCityInfo(itemCity);
                         itemList.add(c);
 
-                        proMunicipalities.size += itemCity.size;
+                        proMunicipalities.dataSize += itemCity.dataSize;
                         itemsAll.add(c);
                         if(hotCityIds.contains(itemCity.cityID)){
                             //添加到热门城市，保证与省份下的城市是一个对象
@@ -405,7 +399,7 @@ public class BaiduOfflineMapActivity extends Activity
                     proHot.cityName = "热门城市";
                     proHot.childCities = cs;
                     proHot.cityType = 1;
-                    proHot.size = size;
+                    proHot.dataSize = size;
 
                     OfflineMapItem item1 = new OfflineMapItem();
                     item1.setCityInfo(proHot);
@@ -430,7 +424,6 @@ public class BaiduOfflineMapActivity extends Activity
 
 			@Override
 			protected void onResult(Void result) {
-				// TODO Auto-generated method stub
 				refreshDownList();
                 refreshAllSearchList();
 
@@ -499,7 +492,6 @@ public class BaiduOfflineMapActivity extends Activity
 		
 		@Override
 		public Object instantiateItem(ViewGroup container, int position) {
-			// TODO Auto-generated method stub
 			View v = views.get(position);
 			container.addView(v);
 			return v;
@@ -507,25 +499,21 @@ public class BaiduOfflineMapActivity extends Activity
 		
 		@Override
 		public void destroyItem(ViewGroup container, int position, Object object) {
-			// TODO Auto-generated method stub
 			container.removeView(views.get(position));
 		}
 
 		@Override
 		public int getCount() {
-			// TODO Auto-generated method stub
 			return views.size();
 		}
 
 		@Override
 		public boolean isViewFromObject(View arg0, Object arg1) {
-			// TODO Auto-generated method stub
 			return arg0 == arg1;
 		}
 		
 		@Override
 		public CharSequence getPageTitle(int position) {
-			// TODO Auto-generated method stub
 			return titles.get(position);
 		}
 		

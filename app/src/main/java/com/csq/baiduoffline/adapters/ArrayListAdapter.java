@@ -36,7 +36,6 @@ public abstract class ArrayListAdapter<T> extends BaseAdapter {
 	
 	@Override
 	public int getCount() {
-		// TODO Auto-generated method stub
 		if(mDatas == null){
 			return 0;
 		}
@@ -45,7 +44,6 @@ public abstract class ArrayListAdapter<T> extends BaseAdapter {
 
 	@Override
 	public Object getItem(int position) {
-		// TODO Auto-generated method stub
 		if(mDatas == null || position < 0 || position > mDatas.size()-1){
 			return null;
 		}
@@ -54,7 +52,6 @@ public abstract class ArrayListAdapter<T> extends BaseAdapter {
 
 	@Override
 	public long getItemId(int position) {
-		// TODO Auto-generated method stub
 		return 0;
 	}
 

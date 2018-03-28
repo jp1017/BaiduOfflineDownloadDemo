@@ -101,16 +101,15 @@ public class OfflineMapItem implements Comparable<OfflineMapItem>{
 		this.mDownInfo = mElement;
 	}
 
-	public int getSize() {
+	public long getSize() {
 		if(mCityInfo != null){
-			return mCityInfo.size;
+			return mCityInfo.dataSize;
 		}
 		return 0;
 	}
 
 	@Override
 	public int compareTo(OfflineMapItem o2) {
-		// TODO Auto-generated method stub
 		int f1 = getStatus() == MKOLUpdateElement.FINISHED ? 1 : 0;
 		int f2 = o2.getStatus() == MKOLUpdateElement.FINISHED ? 1 : 0;
 		if(f1 != f2){
